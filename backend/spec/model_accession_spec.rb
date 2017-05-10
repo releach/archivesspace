@@ -162,9 +162,10 @@ describe 'Accession model' do
                                                  :rights_statements => [
                                                     {
                                                       "identifier" => "abc123",
-                                                      "rights_type" => "intellectual_property",
-                                                      "ip_status" => "copyrighted",
+                                                      "rights_type" => "copyright",
+                                                      "status" => "copyrighted",
                                                       "jurisdiction" => "AU",
+                                                      "start_date" => '1999-01-01',
                                                     }
                                                   ]
                                                  ),
